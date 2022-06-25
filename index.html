@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600;800;900&display=swap" rel="stylesheet" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">
+        Playing with the <span class="extra-bold">Javascript</span>
+        <a href="#" class="button func-button">Function<span class="font-4rem">()</span></a>
+      </h1>
+    </header>
+    <main>
+      <section class="javascript-tab">
+        <h3 class="tagName"><span><</span><span>script</span><span>></span></h3>
+        <div class="function-content">
+          <h3 class="varName">function FUNCTION<span class="bracket">() {</span></h3>
+          <div>
+            <h3 class="varName">
+              const tagElem =
+              <span class="textElem">document.createElement<span class="bracket">(</span>"<span class="varName">h3</span>"<span class="bracket">);</span></span>
+            </h3>
+            <h3 class="varName">
+              const textElem =
+              <span class="textElem">document.createTextNode<span class="bracket">(</span>"<span class="varName">Hello World!!</span>"<span class="bracket">);</span></span>
+            </h3>
+            <h3 class="textElem">tagElem.appendChild<span class="bracket">(</span>textElem<span class="bracket">);</span></h3>
+            <h3 class="textElem">output.appendChild<span class="bracket">(</span>tagElem<span class="bracket">);</span></h3>
+          </div>
+          <h3 class="bracket">}</h3>
+        </div>
+        <h3 class="tagName"><span><</span><span>/</span><span>script</span><span>></span></h3>
+      </section>
+      <section class="html-tab">
+        <h3 class="tagName"><span><</span><span>main</span><span>></span></h3>
+        <div class="output"></div>
+        <h3 class="tagName"><span><</span><span>/</span><span>main</span><span>></span></h3>
+      </section>
+    </main>
+
+    <section class="calculator-section">
+      <div class="sec-title">
+        <h1 class="title">try this calculator
+          made with css and <span class="weight900">javascript</span>
+        </h1>  
+      </div>
+      <div class="calculator">
+        <div class="output-temp-number">
+          <span></span>
+        </div>
+        <div class="output-number">
+          <span></span>
+        </div>
+        <div class="num-key-section">
+          <div>
+            <a class="button num-key" value="C"><span>C</span></a>
+            <a class="button num-key" value="CE"><span>CE</span></a>
+            <a class="button num-key" value="del"><span>del</span></a>
+            <a class="button num-key" value="/"><span>&divide</span></a>
+          </div>
+          <div>
+            <a class="button num-key" value="7"><span>7</span></a>
+            <a class="button num-key" value="8"><span>8</span></a>
+            <a class="button num-key" value="9"><span>9</span></a>
+            <a class="button num-key" value="*"><span>&#215</span></a>
+          </div>
+          <div>
+            <a class="button num-key" value="4"><span>4</span></a>
+            <a class="button num-key" value="5"><span>5</span></a>
+            <a class="button num-key" value="6"><span>6</span></a>
+            <a class="button num-key" value="-"><span>-</span></a>
+          </div>
+          <div>
+            <a class="button num-key" value="1"><span>1</span></a>
+            <a class="button num-key" value="2"><span>2</span></a>
+            <a class="button num-key" value="3"><span>3</span></a>
+            <a class="button num-key" value="+"><span>+</span></a>
+          </div>
+          <div>
+            <a class="button num-key" value="0"><span>0</span></a>
+            <a class="button num-key" value="."><span>.</span></a>
+            <a class="button num-key" value="="><span>=</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
